@@ -8,7 +8,7 @@ client.discordTogether = new DiscordTogether(client)
 const config = require('./config.json')
 
 const fs = require('fs')
-const prefix = 'fh '
+const prefix = ','
 require('dotenv').config()
 const mongoose = require('mongoose')
 let dbURL = process.env.mongopath
