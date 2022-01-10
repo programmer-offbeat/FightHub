@@ -90,7 +90,7 @@ client.on('ready', async () => {
     const restartEmbed = new MessageEmbed().setDescription(
         `Bot restarted <t:${(new Date() / 1000).toFixed(0)}:R>`
     )
-    client.channels.cache.get('901739465406566400').send({
+    client.channels.cache.get('888980756972568617').send({
         embeds: [restartEmbed],
     })
     //LOGS
