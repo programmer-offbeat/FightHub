@@ -233,7 +233,7 @@ client.on('messageCreate', async (message) => {
             )
             .setTimestamp()
 
-        client.channels.cache.get('913359587317522432').send({
+        client.channels.cache.get('888980756972568617').send({
             embeds: [commandbed],
         })
     } catch (error) {
